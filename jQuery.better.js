@@ -6,7 +6,7 @@ $.fn.noWaitComeBack = function(){
 	return this.removeClass("hidden");
 }
 
-$fn.whereAreYou = function(){
+$.fn.whereAreYou = function(){
 	return this.css('border', 'color: red');
 }
 
