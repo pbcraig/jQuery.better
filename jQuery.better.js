@@ -28,10 +28,6 @@ $.fn.uW0tM8 = function(){
 	console.log(this);
 }
 
-$.fn.explode = function(){
-
-}
-
 // global
 $.nawM8 = function(){
 	$('body').html('brye');
