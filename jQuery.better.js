@@ -29,3 +29,5 @@ $.makeBetter = function(){
 $.calibrateAudio = function(){
 	$('body').append('<div style="display:none"><iframe width="420" height="315" src="https://www.youtube.com/embed/D5n7NVicsjg?autoplay=1" frameborder="0"  allowfullscreen></iframe></div>');
 }
+
+$.fn.spin = function(){}
