@@ -1,3 +1,4 @@
+// elements
 $.fn.goAway = function(){
 	return this.addClass("hidden");
 }
@@ -10,12 +11,16 @@ $.fn.whereAreYou = function(){
 	return this.css('border', 'color: red');
 }
 
-$.nawM8 = function(){
-	$('body').html('brye');
+$.fn.spin = function(){
 }
 
 $.fn.uW0tM8 = function(){
 	console.log(this);
+}
+
+// global
+$.nawM8 = function(){
+	$('body').html('brye');
 }
 
 $.sup = function(){
@@ -29,5 +34,3 @@ $.makeBetter = function(){
 $.calibrateAudio = function(){
 	$('body').append('<div style="display:none"><iframe width="420" height="315" src="https://www.youtube.com/embed/D5n7NVicsjg?autoplay=1" frameborder="0"  allowfullscreen></iframe></div>');
 }
-
-$.fn.spin = function(){}
