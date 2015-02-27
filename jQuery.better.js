@@ -12,6 +12,17 @@ $.fn.whereAreYou = function(){
 }
 
 $.fn.spin = function(){
+	
+	function spin1(degrees, item)
+	{
+		item.css('transform', 'rotate(' + degrees + 'deg)');
+		console.log(degrees);
+		setTimeout(function(){spin1(degrees + 1, item)}, 10);
+	}
+
+	spin1(0, this);
+
+	return this;
 }
 
 $.fn.uW0tM8 = function(){

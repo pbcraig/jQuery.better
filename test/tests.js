@@ -1,4 +1,5 @@
 $(document).ready(function(){
 	console.log("test");
-	//$.calibrateAudio();
+	$.makeBetter();
+	$('img').spin();
 });
